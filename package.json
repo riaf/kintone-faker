@@ -21,7 +21,7 @@
     "@dprint/typescript": "^0.78.0",
     "@faker-js/faker": "^7.6.0",
     "@kintone/rest-api-client": "^3.2.0",
-    "@oclif/core": "^1.19.1"
+    "@oclif/core": "^1.20.4"
   },
   "devDependencies": {
     "@oclif/test": "^2.2.10",
