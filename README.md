@@ -16,8 +16,8 @@ USAGE
 $ export KINTONE_BASE_URL="https://YOURKINTONEURL.cybozu.com"
 $ export KINTONE_USERNAME="YOUR KINTONE USERNAME"
 $ export KINTONE_PASSWORD="YOUR KINTONE PASSWORD"
-$ kintone-faker generate-base-fields --appId [appId] --output fields.ts
-$ kintone-faker add-records -a [appId] fields.ts
+$ kintone-faker generate-base-fields --appId [appId] --output fields.js
+$ kintone-faker add-records -a [appId] fields.js
 ```
 
 # Commands
@@ -63,5 +63,5 @@ DESCRIPTION
   フィールド定義ファイルを元にレコードを追加する
 
 EXAMPLES
-  $ kintone-faker add-records -a 1 fields.ts
+  $ kintone-faker add-records -a 1 fields.js
 ```

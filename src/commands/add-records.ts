@@ -33,8 +33,8 @@ export default class AddRecords extends Command {
     const { args, flags } = await this.parse(AddRecords);
 
     try {
-      const { fields } = (await import(
-        path.join(process.cwd(), args.configFile)
+      const { fields } = (require(
+        path.join(process.cwd(), args.configFile),
       )) as {
         fields: Fields;
       };
