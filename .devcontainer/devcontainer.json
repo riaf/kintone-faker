@@ -1,0 +1,12 @@
+{
+	"name": "kintone-faker",
+	"image": "mcr.microsoft.com/devcontainers/typescript-node:18-bullseye",
+	"postCreateCommand": "curl -fsSL https://deno.land/x/install/install.sh | sh",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"denoland.vscode-deno"
+			]
+		}
+	}
+}

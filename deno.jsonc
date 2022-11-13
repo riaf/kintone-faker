@@ -1,0 +1,41 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "deno.window"
+    ],
+    "strict": true
+  },
+  "lint": {
+    "files": {
+      "include": [
+        "src",
+        "test"
+      ],
+      "exclude": [
+        "node_modules"
+      ]
+    },
+    "rules": {
+      "tags": [
+        "recommended"
+      ]
+    }
+  },
+  "fmt": {
+    "files": {
+      "include": [
+        "src",
+        "test",
+        "deno.jsonc"
+      ],
+      "exclude": [
+        "node_modules"
+      ]
+    },
+    "options": {
+      "useTabs": false,
+      "lineWidth": 100,
+      "indentWidth": 2
+    }
+  }
+}
