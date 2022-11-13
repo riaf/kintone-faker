@@ -1,6 +1,6 @@
 {
   "name": "kintone-faker",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur laoreet diam eu finibus porttitor.",
   "author": "Keisuke Sato",
   "bin": {
